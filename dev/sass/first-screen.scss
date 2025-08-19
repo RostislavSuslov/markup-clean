@@ -1,3 +1,19 @@
-h1 {
-    color: blue;
+@use "variables";
+
+
+.example {
+    text-align: center;
+
+    h1 {
+        font-size: 128px;
+        margin: 0;
+    }
+
+    figure {
+        margin: 48px auto 24px;
+        width: 100%;
+        max-width: 280px;
+        background: variables.$bg-accent-color;
+        padding: 12px;
+    }
 }

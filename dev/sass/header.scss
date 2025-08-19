@@ -1,8 +1,10 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+@use "variables";
+
+header {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	padding: 15px 12px;
+	background: variables.$bg-accent-color;
+	color: variables.$primary-hover-color
 }

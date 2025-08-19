@@ -1,7 +1,11 @@
-footer{
-    height: 100px;
-    background: $secondary-color;
-    margin-top: auto;
-}
+@use "variables";
 
- 
+footer {
+    height: 96px;
+    background: variables.$bg-accent-color;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 12px;
+    color: variables.$primary-hover-color
+}
